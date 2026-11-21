@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jesus Way To Life Church — a place of faith, hope, love, and spiritual growth. Join us for worship, prayer, and community.">
+  <title>Jesus Way To Life Church — Faith, Hope, Love</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Fonts: Marcellus (display serif), Cormorant Garamond (scripture), Noto Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVIGATION ===================== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Jesus Way To Life Church — home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="40" height="40" role="img" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M24 10v26M15 19h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Jesus Way To Life</span>
+          <span class="brand-sub">C H U R C H</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#ministries" class="nav-link">Ministries</a></li>
+        <li><a href="#sermons" class="nav-link">Sermons</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#join" class="btn btn-gold nav-cta">Join Us <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home" aria-label="Welcome">
+      <div class="hero-bg" role="img" aria-label="Congregation worshipping with raised hands in golden light"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-inner container">
+        <p class="hero-eyebrow reveal">Welcome to Jesus Way To Life Church</p>
+        <h1 class="hero-title reveal">Jesus Is The Way,<br>The Truth, And The Life</h1>
+        <p class="hero-sub reveal">A place of faith, hope, love, and spiritual growth.</p>
+        <p class="hero-verse reveal"><em>&ldquo;I am the way, the truth, and the life.&rdquo;</em><span>— John 14:6</span></p>
+        <div class="hero-actions reveal">
+          <a href="#join" class="btn btn-gold">Join Our Church <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a href="#sermons" class="btn btn-outline-light"><i class="fa-solid fa-play" aria-hidden="true"></i> Watch Sermons</a>
+        </div>
+      </div>
+
+      <!-- Rotating seal -->
+      <div class="hero-seal" aria-hidden="true">
+        <svg viewBox="0 0 120 120" width="120" height="120">
+          <defs><path id="seal-circle" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+          <circle cx="60" cy="60" r="58" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+          <circle cx="60" cy="60" r="30" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+          <g class="seal-ring">
+            <text font-size="10.5" letter-spacing="2.5" fill="currentColor">
+              <textPath href="#seal-circle">JESUS WAY TO LIFE CHURCH • FAITH • HOPE • LOVE •</textPath>
+            </text>
+          </g>
+          <path d="M60 44v32M51 53h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <a class="hero-scroll" href="#welcome" aria-label="Scroll to welcome section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></a>
+    </section>
+
+    <!-- ===================== WELCOME ===================== -->
+    <section class="welcome section" id="welcome" aria-labelledby="welcome-title">
+      <div class="container welcome-grid">
+        <figure class="welcome-figure reveal">
+          <img src="assets/welcome.png" alt="Sunlight streaming through the windows of a peaceful church sanctuary" loading="lazy">
+          <figcaption class="welcome-caption">
+            <span class="caption-verse">&ldquo;Where two or three gather in my name, there am I with them.&rdquo;</span>
+            <span class="caption-ref">— Matthew 18:20</span>
+          </figcaption>
+        </figure>
+        <div class="welcome-copy">
+          <p class="eyebrow reveal">Welcome</p>
+          <h2 class="section-title reveal" id="welcome-title">Welcome to Jesus Way&nbsp;To&nbsp;Life&nbsp;Church</h2>
+          <div class="title-rule reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="reveal">Whether you are exploring faith for the first time or have walked with God for many years, you are welcome here. At Jesus Way To Life Church we gather to experience God's love, grow together in faith, and worship the Lord with open hearts.</p>
+          <p class="reveal">We believe church is more than a Sunday service — it is a family. A place where burdens are shared, hope is restored, and lives are transformed through a real relationship with Jesus Christ. Come as you are; leave encouraged, strengthened, and never the same.</p>
+          <ul class="welcome-points reveal">
+            <li><i class="fa-solid fa-heart" aria-hidden="true"></i> Experience God's love in a warm community</li>
+            <li><i class="fa-solid fa-book-open" aria-hidden="true"></i> Grow in faith through the Word of God</li>
+            <li><i class="fa-solid fa-hands-praying" aria-hidden="true"></i> Worship and pray together every week</li>
+          </ul>
+          <a href="#about" class="btn btn-navy reveal">Learn About Our Church <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about section section-dark" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal">About Us</p>
+          <h2 class="section-title light reveal" id="about-title">Who We Are</h2>
+          <div class="title-rule gold reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="section-lead reveal">Jesus Way To Life Church exists to share the Gospel of Jesus Christ, spread God's love, serve our community, and help every person grow into a mature, Spirit-filled believer.</p>
+        </header>
+
+        <div class="about-grid">
+          <article class="about-card reveal">
+            <div class="about-icon" aria-hidden="true"><i class="fa-solid fa-eye"></i></div>
+            <h3>Our Vision</h3>
+            <p>To see lives transformed by Jesus Christ — a community where the lost find the way, the weary find rest, and every person discovers the abundant life God promises.</p>
+          </article>
+          <article class="about-card reveal">
+            <div class="about-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Our Mission</h3>
+            <p>To make disciples of Jesus Christ through passionate worship, sound teaching of the Word, fervent prayer, and practical service to our neighbors and city.</p>
+          </article>
+          <article class="about-card reveal">
+            <div class="about-icon" aria-hidden="true"><i class="fa-solid fa-book-bible"></i></div>
+            <h3>Our Beliefs</h3>
+            <p>We believe in the Bible as God's inspired Word, salvation by grace through faith in Jesus Christ, the power of the Holy Spirit, and the hope of His return. <em>(Add your statement of faith here.)</em></p>
+          </article>
+          <article class="about-card reveal">
+            <div class="about-icon" aria-hidden="true"><i class="fa-solid fa-user-group"></i></div>
+            <h3>Our Leadership</h3>
+            <p>Our church is shepherded by a team of pastors and leaders devoted to prayer, teaching, and care. <em>(Introduce your pastors and leadership team here.)</em></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MINISTRIES ===================== -->
+    <section class="ministries section" id="ministries" aria-labelledby="ministries-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal">Get Involved</p>
+          <h2 class="section-title reveal" id="ministries-title">Our Ministries</h2>
+          <div class="title-rule reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="section-lead reveal">There is a place for everyone to serve and grow. Find a ministry where your gifts can shine for God's glory.</p>
+        </header>
+
+        <div class="ministry-grid">
+          <article class="ministry-card reveal">
+            <div class="ministry-icon" aria-hidden="true"><i class="fa-solid fa-music"></i></div>
+            <h3>Worship Ministry</h3>
+            <p>Leading the church into God's presence through music, song, and adoration every Sunday and beyond.</p>
+            <button class="btn-text ministry-more" data-ministry="Worship Ministry">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </article>
+          <article class="ministry-card reveal">
+            <div class="ministry-icon" aria-hidden="true"><i class="fa-solid fa-fire"></i></div>
+            <h3>Youth Ministry</h3>
+            <p>Equipping young people to live boldly for Christ through real friendships, real faith, and real fun.</p>
+            <button class="btn-text ministry-more" data-ministry="Youth Ministry">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </article>
+          <article class="ministry-card reveal">
+            <div class="ministry-icon" aria-hidden="true"><i class="fa-solid fa-children"></i></div>
+            <h3>Children's Ministry</h3>
+            <p>Planting seeds of faith in the next generation through Bible stories, worship, crafts, and joyful play.</p>
+            <button class="btn-text ministry-more" data-ministry="Children's Ministry">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </article>
+          <article class="ministry-card reveal">
+            <div class="ministry-icon" aria-hidden="true"><i class="fa-solid fa-hands-praying"></i></div>
+            <h3>Prayer Ministry</h3>
+            <p>Standing in the gap for our church, our city, and one another — because prayer moves the heart of God.</p>
+            <button class="btn-text ministry-more" data-ministry="Prayer Ministry">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </article>
+          <article class="ministry-card reveal">
+            <div class="ministry-icon" aria-hidden="true"><i class="fa-solid fa-book-open"></i></div>
+            <h3>Bible Study</h3>
+            <p>Growing deeper in the Word through verse-by-verse study, honest questions, and life application.</p>
+            <button class="btn-text ministry-more" data-ministry="Bible Study">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </article>
+          <article class="ministry-card reveal">
+            <div class="ministry-icon" aria-hidden="true"><i class="fa-solid fa-megaphone"></i></div>
+            <h3>Evangelism Ministry</h3>
+            <p>Sharing the good news of Jesus Christ in our streets, workplaces, and neighborhoods with love and courage.</p>
+            <button class="btn-text ministry-more" data-ministry="Evangelism Ministry">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </article>
+          <article class="ministry-card reveal">
+            <div class="ministry-icon" aria-hidden="true"><i class="fa-solid fa-hand-holding-heart"></i></div>
+            <h3>Community Outreach</h3>
+            <p>Serving practical needs — food, clothing, support, and friendship — to show Christ's love in action.</p>
+            <button class="btn-text ministry-more" data-ministry="Community Outreach">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERMONS ===================== -->
+    <section class="sermons section section-tinted" id="sermons" aria-labelledby="sermons-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal">The Word</p>
+          <h2 class="section-title reveal" id="sermons-title">Latest Sermons</h2>
+          <div class="title-rule reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="section-lead reveal">Be encouraged and equipped by messages from God's Word. Watch online or join us in person.</p>
+        </header>
+
+        <div class="sermon-grid" id="sermon-grid"><!-- Sermon cards are rendered from the SERMONS array in script.js --></div>
+
+        <div class="center reveal">
+          <button class="btn btn-navy" id="view-all-sermons"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> View All Sermons</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EVENTS ===================== -->
+    <section class="events section" id="events" aria-labelledby="events-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal">Gather With Us</p>
+          <h2 class="section-title reveal" id="events-title">Upcoming Events</h2>
+          <div class="title-rule reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="section-lead reveal">Sample events shown below — replace them with your church's real calendar in <code>script.js</code>.</p>
+        </header>
+
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <div class="event-date" aria-hidden="true"><span class="event-month">Sample</span><span class="event-day">—</span></div>
+            <div class="event-body">
+              <h3>Sunday Worship Service</h3>
+              <p class="event-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> Sundays · 9:00 AM &amp; 11:00 AM <span class="dot">·</span> <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Main Sanctuary</p>
+              <p>Join us for passionate worship and a life-giving message from the Word of God. All are welcome — come as you are.</p>
+              <button class="btn-text event-more" data-event="Sunday Worship Service">Register / Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-date" aria-hidden="true"><span class="event-month">Sample</span><span class="event-day">—</span></div>
+            <div class="event-body">
+              <h3>Weekly Prayer Night</h3>
+              <p class="event-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> Wednesdays · 7:00 PM <span class="dot">·</span> <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Prayer Room</p>
+              <p>An evening of united prayer for our families, church, and city. Experience the power of praying together.</p>
+              <button class="btn-text event-more" data-event="Weekly Prayer Night">Register / Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-date" aria-hidden="true"><span class="event-month">Sample</span><span class="event-day">—</span></div>
+            <div class="event-body">
+              <h3>Community Outreach Day</h3>
+              <p class="event-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> Saturdays · 10:00 AM <span class="dot">·</span> <i class="fa-solid fa-location-dot" aria-hidden="true"></i> City Center</p>
+              <p>Serving our neighbors with food, clothing, and the love of Christ. Volunteers of all ages are invited.</p>
+              <button class="btn-text event-more" data-event="Community Outreach Day">Register / Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== VERSE OF THE DAY ===================== -->
+    <section class="verse section" id="verse" aria-labelledby="verse-title">
+      <div class="verse-bg" aria-hidden="true"></div>
+      <div class="container verse-inner">
+        <p class="eyebrow gold reveal">Daily Bread</p>
+        <h2 class="verse-heading reveal" id="verse-title">Verse of the Day</h2>
+        <blockquote class="verse-text reveal">
+          <i class="fa-solid fa-quote-left verse-quote-mark" aria-hidden="true"></i>
+          <p id="verse-text">For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.</p>
+          <cite id="verse-ref">— Jeremiah 29:11</cite>
+        </blockquote>
+        <p class="verse-note reveal" id="verse-note">Whatever today holds, God's plan for you is good. Walk in it with confidence.</p>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="gallery section section-tinted" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal">Life Together</p>
+          <h2 class="section-title reveal" id="gallery-title">Photo Gallery</h2>
+          <div class="title-rule reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="section-lead reveal">Moments of worship, prayer, celebration, and service from our church family.</p>
+        </header>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <button class="gallery-item reveal" data-caption="Sunday worship in the sanctuary"><img src="assets/gallery-worship.png" alt="Worship night — raised hands in golden light" loading="lazy"></button>
+          <button class="gallery-item reveal" data-caption="Prayer meeting — praying together in unity"><img src="assets/gallery-prayer.png" alt="Small group praying together in candlelight" loading="lazy"></button>
+          <button class="gallery-item reveal" data-caption="Church celebration — rejoicing together"><img src="assets/gallery-celebration.png" alt="Congregation celebrating with confetti and joy" loading="lazy"></button>
+          <button class="gallery-item reveal" data-caption="Community outreach — serving our city"><img src="assets/gallery-outreach.png" alt="Volunteers serving meals at an outreach event" loading="lazy"></button>
+          <button class="gallery-item reveal" data-caption="Special services — celebrations and milestones"><img src="assets/gallery-special.png" alt="Church family celebrating during a special service" loading="lazy"></button>
+          <button class="gallery-item reveal" data-caption="The sanctuary at rest — a place of peace"><img src="assets/welcome.png" alt="Peaceful church interior with morning light" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIES ===================== -->
+    <section class="testimonies section" id="testimonies" aria-labelledby="testimonies-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal">Stories of Grace</p>
+          <h2 class="section-title reveal" id="testimonies-title">Testimonies</h2>
+          <div class="title-rule reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="section-lead reveal"><em>Sample testimonies</em> — replace these placeholders with real stories from your members.</p>
+        </header>
+
+        <div class="testimonial-slider reveal" id="testimonial-slider" aria-roledescription="carousel" aria-label="Member testimonies">
+          <div class="testimonial-track" id="testimonial-track">
+            <figure class="testimonial">
+              <i class="fa-solid fa-quote-left t-mark" aria-hidden="true"></i>
+              <blockquote><p>[Sample testimony] &ldquo;Share here how God answered prayer, restored a family, or brought someone to faith through this church.&rdquo;</p></blockquote>
+              <figcaption><span class="t-name">[Member Name]</span><span class="t-role">Sample — replace with a real testimony</span></figcaption>
+            </figure>
+            <figure class="testimonial">
+              <i class="fa-solid fa-quote-left t-mark" aria-hidden="true"></i>
+              <blockquote><p>[Sample testimony] &ldquo;Share here how the worship and community of this church helped someone through a difficult season.&rdquo;</p></blockquote>
+              <figcaption><span class="t-name">[Member Name]</span><span class="t-role">Sample — replace with a real testimony</span></figcaption>
+            </figure>
+            <figure class="testimonial">
+              <i class="fa-solid fa-quote-left t-mark" aria-hidden="true"></i>
+              <blockquote><p>[Sample testimony] &ldquo;Share here how a ministry — youth, outreach, prayer — changed a life and deepened someone's walk with Jesus.&rdquo;</p></blockquote>
+              <figcaption><span class="t-name">[Member Name]</span><span class="t-role">Sample — replace with a real testimony</span></figcaption>
+            </figure>
+          </div>
+          <div class="testimonial-controls">
+            <button class="t-arrow" id="t-prev" aria-label="Previous testimony"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <div class="t-dots" id="t-dots" role="tablist" aria-label="Choose testimony"></div>
+            <button class="t-arrow" id="t-next" aria-label="Next testimony"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRAYER REQUEST ===================== -->
+    <section class="prayer section section-dark" id="prayer" aria-labelledby="prayer-title">
+      <div class="container prayer-grid">
+        <div class="prayer-copy">
+          <p class="eyebrow gold reveal">We Will Pray With You</p>
+          <h2 class="section-title light reveal" id="prayer-title">Send a Prayer Request</h2>
+          <div class="title-rule gold reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="reveal">You are not alone. Whatever you are carrying — illness, grief, provision, guidance, or gratitude — our prayer team would be honored to stand with you before God.</p>
+          <p class="prayer-note reveal"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Your name and email are optional. This form is a demonstration front-end — connect it to your church's email or backend in <code>script.js</code> (see <code>FORM_ENDPOINT</code>) before collecting real requests.</p>
+        </div>
+        <form class="form prayer-form reveal" id="prayer-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="prayer-name">Name <span class="optional">(optional)</span></label>
+              <input type="text" id="prayer-name" name="name" autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="form-field">
+              <label for="prayer-email">Email <span class="optional">(optional)</span></label>
+              <input type="email" id="prayer-email" name="email" autocomplete="email" placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="prayer-request">Prayer Request <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="prayer-request" name="request" rows="5" required minlength="10" placeholder="How can we pray for you?"></textarea>
+            <span class="field-error" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block"><i class="fa-solid fa-hands-praying" aria-hidden="true"></i> Submit Prayer Request</button>
+          <p class="form-status" id="prayer-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== JOIN US CTA ===================== -->
+    <section class="join section" id="join" aria-labelledby="join-title">
+      <div class="join-bg" role="img" aria-label="Hands raised in worship under golden light"></div>
+      <div class="join-overlay" aria-hidden="true"></div>
+      <div class="container join-inner">
+        <p class="eyebrow gold reveal">Plan Your Visit</p>
+        <h2 class="join-title reveal" id="join-title">Come Worship With Us</h2>
+        <div class="title-rule gold reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+        <p class="join-sub reveal">Service times: Sundays 9:00 AM &amp; 11:00 AM <span class="dot">·</span> [Your Church Address] <span class="dot">·</span> Everyone is welcome.</p>
+        <div class="join-actions reveal">
+          <a href="#contact" class="btn btn-gold">Get Directions <i class="fa-solid fa-location-dot" aria-hidden="true"></i></a>
+          <a href="#prayer" class="btn btn-outline-light">Request Prayer <i class="fa-solid fa-hands-praying" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow reveal">Reach Out</p>
+          <h2 class="section-title reveal" id="contact-title">Contact Us</h2>
+          <div class="title-rule reveal" aria-hidden="true"><span></span><i class="fa-solid fa-cross" aria-hidden="true"></i><span></span></div>
+          <p class="section-lead reveal">We would love to hear from you. Send a message, visit us, or give us a call.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <ul class="contact-list">
+              <li><span class="contact-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span><div><h3>Address</h3><p>[Your Church Address]<br>[City, State / Province, ZIP]</p></div></li>
+              <li><span class="contact-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></span><div><h3>Phone</h3><p><a href="tel:+10000000000">[Your phone number]</a></p></div></li>
+              <li><span class="contact-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span><div><h3>Email</h3><p><a href="mailto:info@yourchurch.example">[your-email@example.com]</a></p></div></li>
+              <li><span class="contact-icon" aria-hidden="true"><i class="fa-regular fa-clock"></i></span><div><h3>Service Times</h3><p>Sundays 9:00 AM &amp; 11:00 AM<br>Wednesdays 7:00 PM (Prayer)</p></div></li>
+            </ul>
+            <div class="map-wrap">
+              <!-- Replace the q= value with your church's real address -->
+              <iframe title="Map showing the church location" src="https://www.google.com/maps?q=Church&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <form class="form contact-form reveal" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-name">Full Name <span class="req" aria-hidden="true">*</span></label>
+                <input type="text" id="cf-name" name="name" autocomplete="name" required placeholder="Your full name">
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="form-field">
+                <label for="cf-email">Email Address <span class="req" aria-hidden="true">*</span></label>
+                <input type="email" id="cf-email" name="email" autocomplete="email" required placeholder="you@example.com">
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-phone">Phone Number</label>
+                <input type="tel" id="cf-phone" name="phone" autocomplete="tel" placeholder="+1 (000) 000-0000">
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="form-field">
+                <label for="cf-subject">Subject <span class="req" aria-hidden="true">*</span></label>
+                <input type="text" id="cf-subject" name="subject" required placeholder="How can we help?">
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="cf-message">Message <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="cf-message" name="message" rows="5" required minlength="10" placeholder="Write your message here…"></textarea>
+              <span class="field-error" aria-live="polite"></span>
+            </div>
+            <button type="submit" class="btn btn-navy btn-block"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+            <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
+            <p class="form-note">Demo form: submissions are validated in the browser. Connect a backend or email service via <code>FORM_ENDPOINT</code> in <code>script.js</code> to deliver messages.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" aria-label="Footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home" aria-label="Jesus Way To Life Church — back to top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="40" height="40" role="img" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M24 10v26M15 19h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Jesus Way To Life</span>
+            <span class="brand-sub">C H U R C H</span>
+          </span>
+        </a>
+        <p class="footer-desc">A family of believers walking in the way of Jesus — growing in faith, hope, and love, and sharing the life of Christ with our city.</p>
+        <!-- Replace the href values below with your church's real social pages -->
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook (replace with your church's page)"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube (replace with your church's channel)"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram (replace with your church's profile)"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <nav class="footer-links" aria-label="Quick links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#ministries">Ministries</a></li>
+          <li><a href="#sermons">Sermons</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> [Your Church Address]</li>
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+10000000000">[Your phone number]</a></li>
+          <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:info@yourchurch.example">[your-email@example.com]</a></li>
+          <li><i class="fa-regular fa-clock" aria-hidden="true"></i> Sundays 9:00 AM &amp; 11:00 AM</li>
+        </ul>
+      </div>
+
+      <div class="footer-verse">
+        <h3>Encouragement</h3>
+        <blockquote>
+          <p>&ldquo;Come to me, all you who are weary and burdened, and I will give you rest.&rdquo;</p>
+          <cite>— Matthew 11:28</cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="year">2026</span> Jesus Way To Life Church. All rights reserved.</p>
+        <p class="footer-message"><i class="fa-solid fa-cross" aria-hidden="true"></i> Jesus Christ Is The Way To Life.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lb-close" id="lb-close" aria-label="Close image viewer"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    <button class="lb-arrow lb-prev" id="lb-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+    <figure class="lb-figure">
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-arrow lb-next" id="lb-next" aria-label="Next image"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+
+  <!-- ===================== SERMON MODAL ===================== -->
+  <div class="modal" id="sermon-modal" role="dialog" aria-modal="true" aria-labelledby="sm-title" hidden>
+    <div class="modal-card">
+      <button class="modal-close" id="sm-close" aria-label="Close sermon details"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <div class="modal-video" id="sm-video"><!-- YouTube embed is injected here when a video is configured --></div>
+      <div class="modal-body">
+        <h3 id="sm-title"></h3>
+        <p class="modal-meta" id="sm-meta"></p>
+        <p id="sm-desc"></p>
+        <p class="modal-note" id="sm-note"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to top -->
+  <button class="to-top" id="to-top" aria-label="Back to top"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
